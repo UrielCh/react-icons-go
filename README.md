@@ -15,31 +15,31 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/go":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-go@1.0.6/mod.ts",
-    "react-icons/go/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-go@1.0.6/ico/",
+    "react-icons/go":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-go@1.0.7/mod.ts",
+    "react-icons/go/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-go@1.0.7/ico/",
   }
 }
 ```
 
-## Direct import sample
+## Import an icon without import_map by and afer loading all icons from the lib go
 
 ```ts
-import { GoAlert } from "https://deno.land/x/react_icons_go@1.0.6/mod.ts"
+import { GoAlert } from "https://deno.land/x/react_icons_go@1.0.7/mod.ts"
 ```
 
-## import_map import sample
+## import_map import an icon from all icons
 
 ```ts
 import { GoAlert } from "react-icons/go"
 ```
 
-## minimal import
+## import a single icon, downloading just one icon
 
 ```ts
 import { GoAlert } from "react-icons/go/GoAlert.ts"
 ```
 
-## minimal import using default export
+or using default export
 
 ```ts
 import GoAlert from "react-icons/go/GoAlert.ts"
