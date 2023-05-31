@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { GoAlert } from "https://deno.land/x/react_icons_go@1.0.1/mod.ts"`
+```ts
+import { GoAlert } from "https://deno.land/x/react_icons_go@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { GoAlert } from "react-icons/go"`
+```ts
+import { GoAlert } from "react-icons/go"
+```
 
 ## minimal import
 
-`import { GoAlert } from "react-icons/go/GoAlert.ts"`
+```ts
+import { GoAlert } from "react-icons/go/GoAlert.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import GoAlert from "react-icons/go/GoAlert.ts"`
+```ts
+import GoAlert from "react-icons/go/GoAlert.ts"
+```
 
