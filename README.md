@@ -13,10 +13,12 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact":  "https://esm.sh/preact@10.22.1",
-    "preact/": "https://esm.sh/preact@10.22.1/",
-    "react-icons/go":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-go@1.0.10/mod.ts",
-    "react-icons/go/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-go@1.0.10/ico/",
+    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.9",
+    "preact": "npm:preact@10.22.1",
+    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+    "preact/hooks": "npm:preact@10.22.1/hooks",
+    "react-icons/go": "jsr:@preact-icons/go@^1.0.10/mod.ts",
+    "react-icons/go/": "jsr:@preact-icons/go@^1.0.10/ico/",
   }
 }
 ```
@@ -24,7 +26,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib go
 
 ```ts
-import { GoAlert } from "https://deno.land/x/react_icons_go@1.0.10/mod.ts"
+import { GoAlert } from "jsr:preact-icons/go@1.0.10/mod.ts"
 ```
 
 ## import_map import an icon from all icons
