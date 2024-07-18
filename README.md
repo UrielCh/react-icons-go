@@ -42,5 +42,5 @@ import { GoAlert } from "react-icons/go/GoAlert"
 or using default export
 
 ```ts
-import GoAlert from "react-icons/go/GoAlert.ts"
+import GoAlert from "react-icons/go/GoAlert"
 ```
