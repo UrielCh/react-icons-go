@@ -2,7 +2,7 @@
   "lock": false,
   "name": "@preact-icons/go",
   "license": "MIT",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "exports": {
     ".": "./mod.ts",
     "./GoAlert": "./ico/GoAlert.ts",
